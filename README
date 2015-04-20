@@ -1,0 +1,12 @@
+A:
+	0000000000400624 T _Z7averagePdRd
+	0000000000400652 T _Z7averageif
+	000000000040067a T main
+B:
+	18	  char: 1  byte, pointer: 8 bytes
+	48		 int: 4 bytes, pointer: 8 bytes
+	48	 float: 4 bytes, pointer: 8 bytes
+	88	double: 8 bytes, pointer: 8 bytes
+	
+	because all types of pointer record only one memory location,
+	so they are all in the same size.
